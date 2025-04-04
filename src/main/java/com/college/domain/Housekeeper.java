@@ -48,7 +48,7 @@ public class Housekeeper {
 
         public HousekeeperBuilder() {}
 
-        public HousekeeperBuilder(int HousekeeperId, String HousekeeperName, String HousekeeperSurname, String HousekeeperRole) {
+        public HousekeeperBuilder(int HousekeeperId, String HousekeeperName, String HousekeeperSurname) {
             this.HousekeeperId = HousekeeperId;
             this.HousekeeperName = HousekeeperName;
             this.HousekeeperSurname = HousekeeperSurname;
